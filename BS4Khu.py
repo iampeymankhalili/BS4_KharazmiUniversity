@@ -28,3 +28,14 @@ for result_class in result_classes:
     print(temp.text)
 #step5
 
+#For example: return all paragraphs - step6
+paragraphs = soup.find_all("p")
+
+print(paragraphs)
+
+#step7
+
+#img - step7
+img = soup.find_all("img")
+print(img)
+
