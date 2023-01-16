@@ -59,3 +59,12 @@ print(imgs)
 #step6
 
 
+#Find a complete text using a part of that text - step7
+
+text = soup.find_all(
+    "p", string=lambda text: "this book"
+)
+print(text)
+
+#step7
+
