@@ -28,14 +28,34 @@ for result_class in result_classes:
     print(temp.text)
 #step5
 
-#For example: return all paragraphs - step6
-paragraphs = soup.find_all("p")
+#Find tags: return some of Html tags
+# <header> , <section> <footer> <ul> <a> <img> - step6
 
+# This section finds the paragraphs in the HTML
+paragraphs = soup.find_all("p")
 print(paragraphs)
 
-#step7
+# This section finds the header in the HTML
+headers = soup.find_all("header")
+print(headers)
 
-#img - step7
-img = soup.find_all("img")
-print(img)
+# This section finds the sections in the HTML
+sections = soup.find_all("section")
+print(sections)
+
+# This section finds the lists in the HTML
+uls = soup.find_all("ul")
+print(uls)
+
+# This section finds the links in the HTML
+links = soup.find_all("a")
+print(a)
+
+# This section finds the images in the HTML
+imgs = soup.find_all("img")
+print(imgs)
+
+
+#step6
+
 
