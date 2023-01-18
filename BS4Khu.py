@@ -49,7 +49,7 @@ print(uls)
 
 # This section finds the links in the HTML
 links = soup.find_all("a")
-print(a)
+print(links)
 
 # This section finds the images in the HTML
 imgs = soup.find_all("img")
